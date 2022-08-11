@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: whitesmoke;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.layout{
+
+width: 1200px;
+
+margin: auto;
+
+overflow: hidden;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+nav{
+    width: 80%;
+    float: left;
+    margin-top: 40px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    color: #5d19ad;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+	color: #d05400;
+}
+
+article{
+	text-align: center;
+	background: whitesmoke;
+	padding: 40px;
+}
+
+article h1{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #834ed0;
+}
+article p{
+    font-size: 25px;
+    line-height: 1.2;
+}
+article img{
+    width: 500px;
+}
